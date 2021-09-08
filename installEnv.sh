@@ -3,7 +3,8 @@
 conda_env_name=SurfaceNet
 
 # set -e # To exit the script as soon as one of the commands failed
-cd ~/Downloads
+mkdir /content/Downloads
+cd /content/Downloads
 
 # install miniconda
 if which conda >/dev/null; then
